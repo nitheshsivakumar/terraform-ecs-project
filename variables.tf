@@ -55,3 +55,11 @@ variable "private_data_subnet_az2_cidr" {
     type        = string
 }
 
+
+# security groups variables
+
+variable "ssh_location" {
+    description = "ip address that can ssh into the server"
+    type        = string
+}
+
